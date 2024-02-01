@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+      }
+
+      nav {
+        background-color: #ffffff;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      #company-logo {
+        margin-right: 20px;
+        max-height: 50px; /* Adjust the max height as needed */
+        margin-left: 5rem;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+      }
+
+      li {
+        margin-right: 30px;
+      }
+
+      a {
+        text-decoration: none;
+        color: gray;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: #0056b3;
+      }
+      #image-container {
+        width: 100%;
+        height: 80vh;
+        overflow: hidden;
+      }
+
+      #big-image {
+        width: 70%;
+        height: 100%;
+      }
+
+      #live-chat-container {
+        text-align: center;
+        padding: 20px;
+
+        color: white;
+      }
+
+      .live-chat-button {
+        padding: 15px 30px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        background-color: #0056b3;
+      }
+
+      .live-chat-button:hover {
+        background-color: #003366; /* Hover color */
+      }
+      .baap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img id="company-logo" src="/component/hplogo.png" alt="Company Logo" />
+      <ul>
+        <li><a href="#">OfficeJet</a></li>
+        <li><a href="#">DeskJet</a></li>
+        <li><a href="#">ENVY</a></li>
+        <li><a href="#">LaserJet</a></li>
+      </ul>
+    </nav>
+    <div class="baap">
+      <div id="image-container">
+        <img id="big-image" src="/component/image-13.png" alt="Big Image" />
+      </div>
+      <div id="live-chat-container">
+        <!-- Live Chat Now Button -->
+        <a
+          href="https://tawk.to/chat/65aca3790ff6374032c2f282/1hkl5t5v9"
+          class="live-chat-button"
+        >
+          Live Chat Now
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

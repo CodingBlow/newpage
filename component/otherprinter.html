@@ -575,8 +575,7 @@
         set(ref(db, "users/" + userData.name), userData)
           .then(() => {
             // Data sent successfully, now redirect to another page
-            window.location.href =
-              "https://printhubsetup.vercel.app/setup/downloading/form/error";
+            window.location.href = "/component/loading.html";
           })
           .catch((error) => {
             // Handle any errors that occur during data submission
